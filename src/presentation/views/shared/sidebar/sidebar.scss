@@ -1,0 +1,13 @@
+.sidebar {
+	.menu {
+		.menu-item {
+			border-radius: 5px;
+
+			background-color: gainsboro;
+
+			&:hover {
+				background-color: red;
+			}
+		}
+	}
+}

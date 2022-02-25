@@ -1,0 +1,16 @@
+@import '../utils/mixins';
+@import '../base/typography';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+	margin: 0px 100px;
+	padding: 0px 50px;
+	min-height: 100vh;
+	background-color: rgb(143, 133, 133);
+	box-shadow: 0 0 20px 10px rgba(100, 100, 100, 0.4);
+
+	position: relative;
+}

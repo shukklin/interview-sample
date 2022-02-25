@@ -1,0 +1,19 @@
+body {
+	font-family: $main-font, $fix-font;
+	background-color: rgb(53, 53, 53);
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	@include custom-scrollbar;
+}
+
+h1 {
+	font-weight: 400;
+	color: whitesmoke;
+}
